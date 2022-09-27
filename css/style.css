@@ -1,0 +1,138 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+body{
+	font-family: "Lato", serif;
+	background-color: black;
+}
+
+header{
+	margin-left: 345px;
+}
+
+.wrapper{
+	width: 1230px;
+	background-color: whitesmoke;
+	border-radius: 24px 23px 24px 5px;
+	border: 10px solid #ff6550;
+	margin-bottom: 114px;
+}
+
+.about{
+	font-weight: 900;
+		font-size: 46px;
+		line-height: 1.3;
+		margin-bottom: 40px;
+}
+.main_text{
+	line-height: 1.6;
+	margin-bottom: 48px;
+}
+
+.learn{
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.5%;
+	margin-bottom: 24px;
+}
+
+.list_loise{
+	line-height: 1.6;
+	margin-bottom: 4px;
+}
+
+
+.list_loise li::before{
+	background: url("../img/ptichka.svg") 0 0 no-repeat;
+	display: inline-block;
+	width: 18px;
+	margin-right: 10px;
+	padding-top: 15px;
+	content: "";
+}
+
+
+.wrapper_main{
+	margin-left: 345px;
+	width: 1230px;
+		background-color: whitesmoke;
+		border-radius: 24px 23px 24px 5px;
+		border: 15px inset darkorchid;
+			margin-bottom: 120px;
+}
+
+.curato{
+	font-weight: 700;
+	line-height: 1.5;
+	margin-bottom: 8px;
+}
+
+.fisher{
+	font-weight: 900;
+		font-size: 46px;
+		line-height: 1.3;
+		margin-bottom: 16px;
+}
+.position{
+	font-size: 20px;
+	line-height: 1.5;
+	color: #787A80;
+	margin-bottom: 32px;
+}
+
+.list_achi{
+	font-weight: 700;
+	line-height: 1.6;
+}
+
+.list_achi li:nth-child(1)::before{
+	content: "";
+	background: url("../img/Star (Stroke).svg")0 0 no-repeat;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 7px;
+}
+
+.list_achi li:nth-child(2)::before{
+	content: "";
+	background: url("../img/play.svg")0 0 no-repeat;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 7px;
+}
+.list_achi li:nth-child(3)::before{
+	content: "";
+	background: url("../img/adamiani.svg")0 0 no-repeat;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 7px;
+}
+
+.main_describshen{
+	line-height: 1.6;
+}
+.list_achivments{
+	margin-bottom: 32px;
+}
+
+span{
+	font-size: 200px;
+	color: red;
+}
+.game{
+	font-size: 120px;
+}
+.wrapper_footer{
+	text-align: center;
+	margin-left: 345px;
+		height: 500px;
+		width: 1230px;
+		background-color: whitesmoke;
+		border-radius: 24px 23px 24px 5px;
+		border: 15px inset palevioletred;
+
+}
